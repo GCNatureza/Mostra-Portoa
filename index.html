@@ -15,6 +15,18 @@
 </head>
 <body>
   <div id="raiz"><p class="carregando">Carregando o sistema de avaliação…</p></div>
+  <script>
+    // se algo falhar ao carregar, mostra o motivo em vez de uma página em branco
+    window.addEventListener('error', function (e) {
+      var r = document.getElementById('raiz');
+      if (r && r.querySelector('.carregando')) {
+        r.innerHTML =
+          '<p class="carregando">Erro ao carregar o site:<br><b>' +
+          (e.message || 'falha desconhecida') +
+          '</b><br><br>Recarregue a página. Se persistir, avise a coordenação.</p>';
+      }
+    });
+  </script>
   <script src="config.js"></script>
   <script src="app.js"></script>
 </body>
