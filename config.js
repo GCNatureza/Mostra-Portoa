@@ -1,10 +1,13 @@
 /* ------------------------------------------------------------------
    Configuração do site — o único arquivo que você precisa editar.
 
-   Cole abaixo, entre as aspas, o endereço do aplicativo web gerado
-   pelo Google Apps Script (ele termina em /exec).
+   API_URL é o endereço do aplicativo web do Google Apps Script
+   (termina em /exec). Ele muda apenas se você criar uma implantação
+   NOVA; ao publicar uma nova versão da implantação existente, o
+   endereço continua o mesmo.
    ------------------------------------------------------------------ */
 
 window.CONFIG = {
-  API_URL: "https://script.google.com/macros/s/AKfycbxopDaomrtgo0xriwWbBJ9EfCk8y7yWoMmQnud58xFosG-6qX0bBEtefk9pcZtZajev6w/exec",
+  API_URL:
+    "https://script.google.com/macros/s/AKfycbyaqSmCi4ol_cFP3AgpUkeZE0v3OLqRHDEL9w_P6OExznrWQZRVtGSM1mCgyslKM_n3pg/exec",
 };
