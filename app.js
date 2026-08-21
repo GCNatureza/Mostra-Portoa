@@ -76,6 +76,16 @@ Error generating stack: `+l.message+`
   background:var(--azul);border-radius:5px;padding:3px 7px}
 .pt-max{font-size:11px;color:var(--texto2);letter-spacing:.06em;text-transform:uppercase;font-weight:700}
 
+.pt-opcoes{display:flex;flex-wrap:wrap;gap:8px}
+.pt-pilula{border:1.5px solid var(--linha);background:var(--branco);border-radius:8px;
+  padding:10px 16px;font:inherit;font-size:14px;cursor:pointer;color:var(--texto2);
+  position:relative;transition:background .12s,border-color .12s,color .12s}
+.pt-pilula:hover{border-color:var(--azul-med);color:var(--texto)}
+.pt-pilula.marcada{background:var(--azul);border-color:var(--azul);color:#fff;font-weight:600;
+  padding-left:34px}
+.pt-pilula.marcada::before{content:"\u2713";position:absolute;left:14px;top:50%;
+  transform:translateY(-50%);font-size:13px;font-weight:700}
+
 .pt-niveis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
 .pt-nivel-cartao{display:flex;flex-direction:column;gap:7px;text-align:left;cursor:pointer;
   background:var(--branco);border:1.5px solid var(--linha);border-radius:9px;padding:11px;
