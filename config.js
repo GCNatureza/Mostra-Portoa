@@ -10,5 +10,5 @@
 
 window.CONFIG = {
   API_URL:
-    "https://script.google.com/macros/s/AKfycbwxFUysZ8CUIlToaYsK-0_Gl4H-YyCg-tvdmJQ-juUa2hyEVc1mElF74p8MFxX0tPv7ag/exec",
+    "https://script.google.com/macros/s/AKfycbx_S-Apt3eEVkm_FBtQZ5jhOIgl5Sw9cm6pYr2wf3VYJHcUef3fpLtQE3reItCkaC8LVg/exec",
 };
